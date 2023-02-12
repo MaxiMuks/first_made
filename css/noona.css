@@ -1,0 +1,95 @@
+body {
+    display: contents;
+}
+
+.navBar {
+    float: right;
+    margin: 20px;
+}
+
+.nav_item {
+    text-decoration: none;
+    color: #000;
+    margin-right: 15px;
+}
+
+.nav_item:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.input_area {
+    margin-top: 20px;
+}
+
+.input_box {
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    border: 1px solid lightgray;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.search_icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+}
+
+.mic_icon {
+    position: relative;
+    right: 40px;
+    color: #9aa0a6;
+}
+
+.button_area {
+    margin-top: 18px;
+}
+
+.button_style{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 5px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    padding: 0 16px;
+}
+
+.button_style:hover{
+    box-shadow: 0 1px 1px rgb(0, 0, 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;    
+}
+
+.footer {
+    margin-top: 205px;
+    background-color: #f2f2f2;
+}
+
+.korea {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.info {
+    padding: 15px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.inner_info {
+    text-decoration: none;
+    color: #70757a;
+    padding-right: 16px;
+}
